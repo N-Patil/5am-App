@@ -74,7 +74,7 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col sm:flex-row md:flex-row place-items-center m-2 h-fit p-4 overflow-hidden  gap-10 ">
+      <div className="flex flex-col sm:flex-row md:flex-row place-items-center m-2 h-fit p-4 overflow-hidden  gap-10 bg-red-500">
 
          {/* //text-animation section */}
 
