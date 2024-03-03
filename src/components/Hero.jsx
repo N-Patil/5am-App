@@ -74,11 +74,11 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col sm:flex-row md:flex-row place-items-center m-2 h-fit p-4 overflow-hidden  gap-10 bg-red-500">
+      <div className="flex flex-col sm:flex-row md:flex-row place-items-center m-2 h-fit p-4 overflow-hidden sm:gap-0 md:gap-10">
 
          {/* //text-animation section */}
 
-        <div className='flex sm:order-2 md:order-2 items-center justify-center m-4 w-full md:ml-36 lg:ml-36 md:w-1/2 lg:w-1/2 h-450 sm:h-465 md:h-650 lg:h-700  gap-10 '>
+        <div className='flex sm:order-2 md:order-2 items-center justify-center m-4 w-full md:ml-36 lg:ml-36 md:w-1/2 lg:w-1/2 h-390 sm:h-450 md:h-650 lg:h-700 '>
           <div className="flex  justify-center items-center w-300 h-286 sm:w-300 sm:h-286 md:w-450 md:h-450 lg:w-469 lg:h-465 bg-orange-circle rounded-full  ">
             <Carousel showArrows={false} enableAutoPlay={true} autoPlaySpeed={3000} pagination={false} verticalMode={true}>
               <img src={img1} alt=""
@@ -93,8 +93,8 @@ const Hero = () => {
 
         {/* //image-animation section */}
 
-        <div className='animation flex md:order-1 flex-col justify-center items-center overflow-hidden md:text-2xl lg:text-3xl 
-              w-309 h-147  sm:w-610 sm:h-147 md:w-430 md:h-180 lg:w-580 lg:h-228 text-orange-letter font-primary'>
+        <div className='animation flex md:order-1 flex-col justify-center items-center overflow-hidden md:text-2xl lg:text-3xl
+              w-309 h-147  sm:w-610 sm:h-147 md:w-430 md:h-180 lg:w-580 lg:h-228 text-orange-letter font-primary '>
           <span className='letters letters-1 absolute'>
             Find your soulmate for specific <br /> interests like art, yoga, travel, <br /> technology &  more...
           </span>
