@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import anime from 'animejs/lib/anime.es.js';
+import anime from 'animejs';
 import img1 from "../components/mobile1.png";
 import img2 from "../components/mobile2.png";
 import img3 from "../components/mobile3.png";
